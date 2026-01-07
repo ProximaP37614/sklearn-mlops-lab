@@ -1,0 +1,7 @@
+timestamp,experiment_name,model_name,dataset,train_accuracy,test_accuracy,hyperparameters,notes
+2026-01-07T07:27:33.890803,baseline-lr,logistic_regression,iris,0.9750,0.9670,"{""max_iter"": 200}",Baseline experiment
+2026-01-07T07:27:33.891041,rf-100trees,random_forest,iris,1.0000,0.9330,"{""n_estimators"": 100, ""max_depth"": 5}",Random Forest with 100 trees
+2026-01-07T07:27:33.891177,rf-200trees,random_forest,iris,1.0000,0.9670,"{""n_estimators"": 200, ""max_depth"": null}",Random Forest with 200 trees
+2026-01-07T07:29:04.031239,baseline-lr,logistic_regression,iris,0.9750,0.9670,"{""max_iter"": 200}",Baseline experiment
+2026-01-07T07:29:04.031553,rf-100trees,random_forest,iris,1.0000,0.9330,"{""n_estimators"": 100, ""max_depth"": 5}",Random Forest with 100 trees
+2026-01-07T07:29:04.031742,rf-200trees,random_forest,iris,1.0000,0.9670,"{""n_estimators"": 200, ""max_depth"": null}",Random Forest with 200 trees
